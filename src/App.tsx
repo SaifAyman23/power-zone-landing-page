@@ -14,12 +14,12 @@ import { Footer } from './components/Footer';
 function App() {
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-black text-white transition-colors duration-300">
+      <div className="min-h-screen select-none bg-black text-white transition-colors duration-300">
         <Header />
         <main>
           <Hero />
           <Quote />
-          <Services />
+          {/* <Services /> */}
           <Team />
           <Pricing />
           <Testimonials />

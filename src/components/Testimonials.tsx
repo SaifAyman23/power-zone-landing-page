@@ -42,7 +42,7 @@ export const Testimonials: React.FC = () => {
   };
 
   return (
-    <section id="testimonials" className="py-20 bg-gray-900">
+    <section id="testimonials" className="py-20 bg-gray-950">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -115,7 +115,7 @@ export const Testimonials: React.FC = () => {
             </div>
 
             {/* Slide Indicators */}
-            <div className="flex justify-center space-x-2 mt-8">
+            <div className="flex justify-center gap-x-2 mt-8">
               {testimonials.map((_, index) => (
                 <button
                   key={index}

@@ -83,14 +83,14 @@ export const FAQ: React.FC = () => {
           </div>
 
           {/* Contact Support */}
-          <div className="text-center mt-12">
+          {/* <div className="text-center mt-12">
             <p className="text-gray-400 mb-4">
               Still have questions? We're here to help!
             </p>
             <button className="bg-primary-500 hover:bg-primary-600 text-black px-8 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105">
               Contact Support
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

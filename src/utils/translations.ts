@@ -102,13 +102,15 @@ export const translations = {
     ctaTitle: 'Join the Movement –',
     ctaSubtitle: 'Transform Your Life Today!',
     ctaDescription: 'Start your fitness journey with Power Zone and unlock your potential with expert coaching and a supportive community.',
-    ctaButton: 'Start Free Trial',
+    ctaButton: 'Start Now',
     
     // Footer
     footerAbout: 'About Power Zone',
     footerPrograms: 'Programs',
     footerSupport: 'Support',
     footerResources: 'Resources',
+    contactWhatsapp: 'Chat on WhatsApp',
+    contactWhatsapp_desc: 'Quick response and instant communication',
     
     aboutCompany: 'Our Story',
     aboutCareers: 'Careers',
@@ -146,7 +148,7 @@ export const translations = {
     // Hero Section
     heroTitle: 'اكتشف أقوى',
     heroTitleContinue: 'نسخة منك فقط',
-    heroTitleHighlight: 'مع باور زون',
+    heroTitleHighlight: 'مع Power Zone',
     heroSubtitle: 'انضم إلى مزيج قوي من التمارين عالية الكثافة والتدريب المتخصص والمجتمع الداعم. ابدأ في بناء عادات دائمة مع مدربينا المعتمدين.',
     getStarted: 'ابدأ الآن',
     learnMore: 'اعرف المزيد',
@@ -237,13 +239,15 @@ export const translations = {
     ctaTitle: 'انضم للحركة –',
     ctaSubtitle: 'حوّل حياتك اليوم!',
     ctaDescription: 'ابدأ رحلة اللياقة البدنية مع باور زون واكتشف إمكاناتك مع التدريب المتخصص والمجتمع الداعم.',
-    ctaButton: 'ابدأ التجربة الآن',
+    ctaButton: 'ابدأ الآن',
     
     // Footer
     footerAbout: 'حول باور زون',
     footerPrograms: 'البرامج',
     footerSupport: 'الدعم',
     footerResources: 'الموارد',
+    contactWhatsapp: 'كلمنا على واتساب',
+    contactWhatsapp_desc: 'رد سريع وتواصل فوري',
     
     aboutCompany: 'قصتنا',
     aboutCareers: 'الوظائف',

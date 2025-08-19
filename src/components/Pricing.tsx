@@ -75,10 +75,10 @@ export const Pricing: React.FC = () => {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`relative bg-gray-900 rounded-2xl p-8 border-2 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl ${
+              className={`relative rounded-2xl p-8 border-2 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl ${
                 plan.popular
-                  ? `${plan.color} shadow-lg scale-105 shadow-primary-500/20`
-                  : `${plan.color} hover:border-primary-500/50`
+                  ? `${plan.color} bg-gradient-to-br from-slate-950 to-primary-400/20  shadow-lg scale-105 shadow-primary-500/20`
+                  : `${plan.color} bg-gray-950 hover:border-primary-500/50`
               }`}
             >
               {/* Popular Badge */}
@@ -125,7 +125,7 @@ export const Pricing: React.FC = () => {
               </ul>
 
               {/* CTA Button */}
-              <button
+              {/* <button
                 className={`w-full py-4 px-6 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105 ${
                   plan.popular
                     ? 'bg-primary-500 hover:bg-primary-600 text-black shadow-lg hover:shadow-xl'
@@ -133,25 +133,25 @@ export const Pricing: React.FC = () => {
                 }`}
               >
                 {plan.buttonText}
-              </button>
+              </button> */}
 
               {/* Money Back Guarantee */}
-              <p className="text-center text-sm text-gray-500 mt-4">
+              {/* <p className="text-center text-sm text-gray-500 mt-4">
                 30-day money-back guarantee
-              </p>
+              </p> */}
             </div>
           ))}
         </div>
 
         {/* Additional Info */}
         <div className="text-center mt-12">
-          <p className="text-gray-400 mb-4">
+          {/* <p className="text-gray-400 mb-4">
             All plans include access to our mobile app and community support
-          </p>
+          </p> */}
           <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-500">
             <span>✓ Cancel anytime</span>
             <span>✓ No setup fees</span>
-            <span>✓ 24/7 customer support</span>
+            {/* <span>✓ 24/7 customer support</span> */}
           </div>
         </div>
       </div>

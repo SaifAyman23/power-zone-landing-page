@@ -11,7 +11,7 @@ export const Team: React.FC = () => {
       specialty: 'HIIT & Strength',
       experience: '8 years',
       rating: 4.9,
-      image: 'https://images.pexels.com/photos/3768916/pexels-photo-3768916.jpeg?auto=compress&cs=tinysrgb&w=300&h=400&dpr=1',
+      image: 'https://images.pexels.com/photos/1802268/pexels-photo-1802268.jpeg?_gl=1*dbu6a1*_ga*MjM3MjExMDk2LjE3NTI0NDA2NTM.*_ga_8JE65Q40S6*czE3NTU2NDE2NjYkbzMkZzEkdDE3NTU2NDE3NzgkajYwJGwwJGgw',
       certifications: ['NASM-CPT', 'CrossFit L2']
     },
     {
@@ -19,7 +19,7 @@ export const Team: React.FC = () => {
       specialty: 'Boxing & Conditioning',
       experience: '12 years',
       rating: 5.0,
-      image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=300&h=400&dpr=1',
+      image: 'https://images.pexels.com/photos/1802268/pexels-photo-1802268.jpeg?_gl=1*dbu6a1*_ga*MjM3MjExMDk2LjE3NTI0NDA2NTM.*_ga_8JE65Q40S6*czE3NTU2NDE2NjYkbzMkZzEkdDE3NTU2NDE3NzgkajYwJGwwJGgw',
       certifications: ['USA Boxing', 'ACSM-CPT']
     },
     {
@@ -27,7 +27,7 @@ export const Team: React.FC = () => {
       specialty: 'Yoga & Mindfulness',
       experience: '6 years',
       rating: 4.8,
-      image: 'https://images.pexels.com/photos/3822906/pexels-photo-3822906.jpeg?auto=compress&cs=tinysrgb&w=300&h=400&dpr=1',
+      image: 'https://images.pexels.com/photos/1802268/pexels-photo-1802268.jpeg?_gl=1*dbu6a1*_ga*MjM3MjExMDk2LjE3NTI0NDA2NTM.*_ga_8JE65Q40S6*czE3NTU2NDE2NjYkbzMkZzEkdDE3NTU2NDE3NzgkajYwJGwwJGgw',
       certifications: ['RYT-500', 'Meditation Teacher']
     },
     {
@@ -35,7 +35,7 @@ export const Team: React.FC = () => {
       specialty: 'Strength & Powerlifting',
       experience: '10 years',
       rating: 4.9,
-      image: 'https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=300&h=400&dpr=1',
+      image: 'https://images.pexels.com/photos/1802268/pexels-photo-1802268.jpeg?_gl=1*dbu6a1*_ga*MjM3MjExMDk2LjE3NTI0NDA2NTM.*_ga_8JE65Q40S6*czE3NTU2NDE2NjYkbzMkZzEkdDE3NTU2NDE3NzgkajYwJGwwJGgw',
       certifications: ['NSCA-CSCS', 'USAPL Coach']
     }
   ];
@@ -110,16 +110,16 @@ export const Team: React.FC = () => {
                 </div>
 
                 {/* Book Session Button */}
-                <button className="w-full bg-gray-800 hover:bg-primary-500 text-white hover:text-black py-3 rounded-lg font-semibold transition-all duration-200 transform group-hover:scale-105">
+                {/* <button className="w-full bg-gray-800 hover:bg-primary-500 text-white hover:text-black py-3 rounded-lg font-semibold transition-all duration-200 transform group-hover:scale-105">
                   Book Session
-                </button>
+                </button> */}
               </div>
             </div>
           ))}
         </div>
 
         {/* Stats Section */}
-        <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        {/* <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div className="space-y-2">
             <div className="text-3xl font-bold text-primary-400">50+</div>
             <div className="text-gray-400">Certified Trainers</div>
@@ -136,7 +136,7 @@ export const Team: React.FC = () => {
             <div className="text-3xl font-bold text-primary-400">24/7</div>
             <div className="text-gray-400">Support Available</div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
