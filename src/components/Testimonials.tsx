@@ -75,14 +75,16 @@ export const Testimonials: React.FC = () => {
             </div>
 
             {/* Author Info */}
-            <div className="flex items-center justify-between">
-              <div className="flex items-center space-x-4 rtl:space-x-reverse">
-                <img
-                  src={testimonials[currentSlide].avatar}
-                  alt={testimonials[currentSlide].author}
-                  className="w-16 h-16 rounded-full object-cover border-2 border-primary-500"
-                />
-                <div>
+            <div className="sm:flex mx-auto items-center justify-between">
+              <div className="sm:flex mx-auto w-full items-center space-x-4 rtl:space-x-reverse">
+                <div className='flex justify-center max-sm:pt-5 max-sm:mb-2'>
+                  <img
+                    src={testimonials[currentSlide].avatar}
+                    alt={testimonials[currentSlide].author}
+                    className="w-16 h-16 rounded-full object-cover border-2 border-primary-500"
+                  />
+                </div>
+                <div className='max-sm:text-center max-sm:mb-5'>
                   <h4 className="text-xl font-bold text-white">
                     {testimonials[currentSlide].author}
                   </h4>
@@ -96,7 +98,7 @@ export const Testimonials: React.FC = () => {
               </div>
 
               {/* Navigation */}
-              <div className="flex items-center space-x-4 rtl:space-x-reverse">
+              <div className="flex max-sm:justify-center items-center space-x-4 rtl:space-x-reverse">
                 <button
                   onClick={prevSlide}
                   className="w-12 h-12 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center transition-colors duration-200"

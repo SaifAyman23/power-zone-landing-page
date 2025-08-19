@@ -14,7 +14,7 @@ export const Hero: React.FC = () => {
         <div className="absolute bottom-20 left-20 w-96 h-96 bg-primary-400/5 rounded-full blur-3xl"></div>
       </div>
 
-      <div className="container mx-auto px-4 mt-32">
+      <div className="container mx-auto px-4 mt-32 max-md:mt-16 ">
         <div className="flex justify-center text-center gap-12 items-center py-20">
           {/* Left Content */}
           <div className="space-y-8">

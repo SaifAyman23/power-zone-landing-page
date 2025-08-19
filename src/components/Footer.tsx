@@ -14,6 +14,7 @@ export const Footer: React.FC = () => {
   // ];
 
   const phoneNumber = `+201558065231`;
+  const email = `genius.ai24@gmail.com`;
 
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=اهلا%20انا%20مهتم%20بخدمة%20من%20شركتك`;
 
@@ -35,7 +36,7 @@ export const Footer: React.FC = () => {
         {/* Main Footer Content */}
         <div className="mb-12">
           {/* Company Info */}
-          <div className="flex justify-between space-x-10 space-y-6">
+          <div className="flex justify-between space-x-10 space-y-6 max-xl:grid">
 
             <div className="flex items-center">
               <span className="ml-3 text-3xl font-bold text-white font-russo">
@@ -51,15 +52,15 @@ export const Footer: React.FC = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 rtl:space-x-reverse text-gray-400">
                 <Mail className="w-5 h-5 text-primary-400" />
-                <span>hello@powerzone.com</span>
+                <span>{email}</span>
               </div>
               <div className="flex items-center space-x-3 rtl:space-x-reverse text-gray-400">
                 <Phone className="w-5 h-5 text-primary-400" />
-                <span>+1 (555) 123-4567</span>
+                <span>{phoneNumber}</span>
               </div>
               <div className="flex items-center space-x-3 rtl:space-x-reverse text-gray-400">
                 <MapPin className="w-5 h-5 text-primary-400" />
-                <span>San Francisco, CA</span>
+                <span>{t('contactLocation')}</span>
               </div>
             </div>
 

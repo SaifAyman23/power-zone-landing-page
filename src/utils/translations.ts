@@ -111,6 +111,7 @@ export const translations = {
     footerResources: 'Resources',
     contactWhatsapp: 'Chat on WhatsApp',
     contactWhatsapp_desc: 'Quick response and instant communication',
+    contactLocation: 'Alexandria, Egypt',
     
     aboutCompany: 'Our Story',
     aboutCareers: 'Careers',
@@ -248,6 +249,7 @@ export const translations = {
     footerResources: 'الموارد',
     contactWhatsapp: 'كلمنا على واتساب',
     contactWhatsapp_desc: 'رد سريع وتواصل فوري',
+    contactLocation: 'الإسكندرية، مصر',
     
     aboutCompany: 'قصتنا',
     aboutCareers: 'الوظائف',
