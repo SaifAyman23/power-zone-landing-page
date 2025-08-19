@@ -30,7 +30,7 @@ export const Hero: React.FC = () => {
                 <span className="text-white">{t('heroTitle')}</span>
                 <span className="text-white"> {t('heroTitleContinue')}</span>
                 <br />
-                <span className="bg-gradient-to-r from-primary-400 to-primary-500 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-primary-400 lg:mt-2 to-primary-500 bg-clip-text text-transparent">
                   {t('heroTitleHighlight')}
                 </span>
               </h1>
