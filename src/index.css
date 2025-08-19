@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: black; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    @apply bg-primary-400;
+    @apply hover:bg-primary-400/60;
+    border-radius: 10px;
+}
+
+.font-russo {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
