@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
 
             {/* Main Headline */}
             <div className="space-y-4">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold">
                 <span className="text-white">{t('heroTitle')}</span>
                 <span className="text-white"> {t('heroTitleContinue')}</span>
                 <br />
