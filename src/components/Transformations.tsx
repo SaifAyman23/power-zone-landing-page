@@ -82,7 +82,7 @@ export const Transformations: React.FC = () => {
         </div>
 
         {/* Transformations Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 lg:gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-12 lg:gap-16">
           {transformations.map((item, index) => {
             const lang = language === "ar" ? "ar" : "en";
             return (
