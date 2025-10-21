@@ -86,7 +86,7 @@ export const Pricing: React.FC = () => {
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                   <div className="bg-primary-500 text-black px-6 py-2 rounded-full text-sm font-bold flex items-center space-x-1">
                     <Star className="w-4 h-4 fill-current" />
-                    <span>Most Popular</span>
+                    <span>{t("mostPopular")}</span>
                   </div>
                 </div>
               )}
@@ -104,10 +104,9 @@ export const Pricing: React.FC = () => {
                     {plan.price}
                   </span>
                   <span className="text-gray-400 ml-2">
-                    /month
+                    /{t("month")}
                   </span>
                 </div>
-                <p className="text-sm text-gray-500">Billed monthly</p>
               </div>
 
               {/* Features List */}
@@ -148,11 +147,11 @@ export const Pricing: React.FC = () => {
           {/* <p className="text-gray-400 mb-4">
             All plans include access to our mobile app and community support
           </p> */}
-          <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+          {/* <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-500">
             <span>✓ Cancel anytime</span>
             <span>✓ No setup fees</span>
-            {/* <span>✓ 24/7 customer support</span> */}
-          </div>
+            <span>✓ 24/7 customer support</span>
+          </div> */}
         </div>
       </div>
     </section>

@@ -92,7 +92,7 @@ export const Team: React.FC = () => {
                 </div>
 
                 {/* Certifications */}
-                <div className="space-y-2">
+                {/* <div className="space-y-2">
                   <div className="flex items-center space-x-2 text-gray-400">
                     <Award className="w-4 h-4" />
                     <span className="text-sm">Certifications</span>
@@ -107,7 +107,7 @@ export const Team: React.FC = () => {
                       </span>
                     ))}
                   </div>
-                </div>
+                </div> */}
 
                 {/* Book Session Button */}
                 {/* <button className="w-full bg-gray-800 hover:bg-primary-500 text-white hover:text-black py-3 rounded-lg font-semibold transition-all duration-200 transform group-hover:scale-105">

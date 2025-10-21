@@ -10,6 +10,7 @@ import { Testimonials } from './components/Testimonials';
 import { FAQ } from './components/FAQ';
 import { CTA } from './components/CTA';
 import { Footer } from './components/Footer';
+import { Transformations } from './components/Transformations';
 
 function App() {
   return (
@@ -20,9 +21,10 @@ function App() {
           <Hero />
           <Quote />
           {/* <Services /> */}
-          <Team />
+          <Transformations />
+          {/* <Team /> */}
           <Pricing />
-          <Testimonials />
+          {/* <Testimonials /> */}
           <FAQ />
           <CTA />
         </main>

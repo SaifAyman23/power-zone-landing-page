@@ -45,7 +45,7 @@ export const Footer: React.FC = () => {
             </div>
 
             <p className="text-gray-400 leading-relaxed max-w-md">
-              Transform your life with our world-class online coaching platform. Join thousands of people who have achieved their fitness and life goals with expert guidance.
+              {t('footerDescription')}
             </p>
             
             {/* Contact Info */}

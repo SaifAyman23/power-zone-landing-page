@@ -39,6 +39,11 @@ export const translations = {
     service2: 'Cardio',
     service3: 'Zen Flow Yoga',
     service4: 'Boxing Blast',
+
+    // Transformations Section
+    transformationsTitle: "Inspiring",
+    transformationsSubtitle: "Real Transformations",
+    transformationsDescription: "Our clients' journeys prove that consistency and expert coaching make all the difference.",
     
     // Team Section
     teamTitle: 'Meet Our Team',
@@ -48,6 +53,8 @@ export const translations = {
     // Pricing
     pricingTitle: 'Find the Right',
     pricingSubtitle: 'Plan for Your Journey',
+    mostPopular: "Most Popular",
+    month: "month",
     
     basicPlan: 'Basic Plan',
     basicPrice: '$29',
@@ -109,6 +116,7 @@ export const translations = {
     footerPrograms: 'Programs',
     footerSupport: 'Support',
     footerResources: 'Resources',
+    footerDescription: 'Transform your life with our world-class online coaching platform. Join thousands of people who have achieved their fitness and life goals with expert guidance.',
     contactWhatsapp: 'Chat on WhatsApp',
     contactWhatsapp_desc: 'Quick response and instant communication',
     contactLocation: 'Alexandria, Egypt',
@@ -177,6 +185,10 @@ export const translations = {
     service2: 'كارديو',
     service3: 'يوغا زن فلو',
     service4: 'بوكسينغ بلاست',
+
+    transformationsTitle: "رحلات",
+    transformationsSubtitle: "تحولات ملهمة",
+    transformationsDescription: "قصص نجاح عملائنا تثبت أن الالتزام والتدريب الصحيح يصنعان الفرق الحقيقي.",
     
     // Team Section
     teamTitle: 'تعرف على فريقنا',
@@ -186,6 +198,8 @@ export const translations = {
     // Pricing
     pricingTitle: 'اعثر على الخطة',
     pricingSubtitle: 'المناسبة لرحلتك',
+    mostPopular: "الأشهر",
+    month: "شهر",
     
     basicPlan: 'الخطة الأساسية',
     basicPrice: '٢٩$',
@@ -247,6 +261,7 @@ export const translations = {
     footerPrograms: 'البرامج',
     footerSupport: 'الدعم',
     footerResources: 'الموارد',
+    footerDescription: 'حوِّل حياتك مع منصتنا العالمية للتدريب عبر الإنترنت. انضم إلى آلاف الأشخاص الذين حققوا أهدافهم في اللياقة والحياة بفضل التوجيه الخبير.',
     contactWhatsapp: 'كلمنا على واتساب',
     contactWhatsapp_desc: 'رد سريع وتواصل فوري',
     contactLocation: 'الإسكندرية، مصر',
